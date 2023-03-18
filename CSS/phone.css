@@ -1,0 +1,39 @@
+.box{
+
+    height: 385px;
+    
+}
+#home{
+    /* display:flex; */
+    display: inline-block;
+    /* flex-direction: column; */
+    /* height: 300px; */
+    overflow: auto;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    height:300px;
+}
+#home p{
+    font-size:15px;
+}
+.h-primary p{
+    font-size: 10px;
+    padding:0px;
+    margin:0px;
+    width:vw;
+
+    
+}
+.h-primary{
+    font-size:15px;
+}
+.box img{
+    size: 30px;
+}
